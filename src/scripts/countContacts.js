@@ -1,6 +1,4 @@
-export const countContacts = async () => {};
-
-import { readContacts } from '../../utils/readContacts.js';
+import { readContacts } from '../utils/readContacts.js';
 
 const countContacts = async () => {
   const contacts = await readContacts();
